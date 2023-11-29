@@ -1,11 +1,12 @@
 # automate_git
 script to automatically update repos
 
-#### .Version 1
+#### .Version 2
 #### Instructions
 * go to the directory location of script
-* Execute: `bash your_script.sh &`
+* Execute: `your_script.sh /path/to/your/repo &`
     * The `&` in the end will execute the script in the background
+    * give path of the repo to automatically update
 * Keep the PID number given right after
     * 5-digit number
 * From now on the repo will be updated automatically every 3mins when there are saved changes
