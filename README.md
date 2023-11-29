@@ -1,7 +1,7 @@
 # automate_git
 script to automatically update repos
 
-#### .Version 2
+#### .Version 3
 #### Instructions
 * go to the directory location of script
 * Execute: `your_script.sh /path/to/your/repo &`
