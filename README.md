@@ -21,8 +21,10 @@ ___
 
 
 #### Commands
-* `touch script.sh`			initiate the file 
+* `touch script.sh`			   initiate the file 
 * `nano script.sh`				modify the file
-* `chmod +x your_script.sh` give   	give access permision to run the code
-* `ps PID`					kill background task
+* `chmod +x your_script.sh` 	give access permision to run the code
+* `ps `					         get all background tasks
+* `pwdx PID`                  get current workiing directory of a process
+* `kill PID`					   kill background task
 
