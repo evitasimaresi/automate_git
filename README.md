@@ -12,7 +12,7 @@ script to automatically update repos
 * From now on the repo will be updated automatically every 3mins when there are saved changes
     * When there are no new changes the following message is beeing printed:\
     <span style="color:#5C6C54">"No changes to commit"</span> 
-* To terminate the script execute:  `ps PID`
+* To terminate the script execute:  ``kill PID`
 
 
 
