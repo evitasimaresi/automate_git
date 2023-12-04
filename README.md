@@ -28,3 +28,22 @@ ___
 * `pwdx PID`                  get current working directory of a process
 * `kill PID`					   kill background task
 
+
+<br/><br/> 
+# setup_venv.sh
+
+Script to automate the setup of a new virtual enviroment in python.
+#### .Version 1
+#### Instructions
+* The script accept two arguments
+    * The name of the enviroment
+    * The location to the python project where the `requirement.txt` is located.
+ 
+ ```bash 
+ source ./setup.sh env_name /path/to/project
+ ```
+
+* Don't forget to deactivate the enviroment.
+
+#### Requirements
+pip and virtualenv
