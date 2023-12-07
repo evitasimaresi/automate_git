@@ -6,7 +6,7 @@ script to automatically update repos
 * go to the directory location of script
 * Execute: `your_script.sh /path/to/your/repo &`
     * The `&` in the end will execute the script in the background
-    * give path of the repo to automatically update
+    * give path of the repo to automatically update or `$(pwd)` to pooint to current directory
 * Keep the PID number given right after
     * 5-digit number
 * From now on the repo will be updated automatically every 3mins when there are saved changes
