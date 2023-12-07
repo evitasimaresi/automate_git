@@ -11,7 +11,7 @@ do
 #  echo "No changes to commit"
 #  else
  git add .
- git commit -m "$(git config user.name) at $(date)" && yes | git push && echo "Changes pushed at $(date)" 
+ git commit -m "$(git config user.name) at $(date)" && yes | git push && echo "\033[1;31mChanges pushed at $(date)\033[1;31m" 
 #  fi
  sleep 30
 done
