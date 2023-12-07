@@ -1,7 +1,7 @@
 #!/bin/bash
 
-repo_location=$1
-cd "$repo_location"
+# Navigate to directory
+cd "$1"
 
 while true
 do
