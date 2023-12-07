@@ -16,5 +16,5 @@ do
  git add .
  git commit -m "$(git config user.name) at $(date)" && yes | git push && echo -e "${RED}Changes pushed at $(date).${NC}" 
 #  fi
- sleep 30
+ sleep 180
 done
