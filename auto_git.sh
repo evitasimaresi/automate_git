@@ -13,6 +13,5 @@ git add -N .
  git add .
  git commit -m "$(git config user.name) at $(date)" && yes | git push
  fi
-#  echo -ne '\n' | read
  sleep 30
 done
