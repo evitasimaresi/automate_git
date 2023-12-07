@@ -12,7 +12,7 @@ sudo pip install virtualenv
 
 # Name of virtual environment
 ENV_NAME=$1 
-PATH_ENV=/home/evitasima/venv
+PATH_ENV=/home/$USER/venv
 mkdir -p $PATH_ENV 
 # cd $PATH_ENV
 
