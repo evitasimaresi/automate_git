@@ -19,5 +19,5 @@ current_time=$(date +'%H:%M:%S')
 else
     echo -e "${RED}${current_time} No changes.${NC}"
 fi
- sleep 15
+ sleep 180
 done
