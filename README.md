@@ -40,7 +40,7 @@ Script to automate the setup of a new virtual enviroment in python.
     * The location to the python project where the `requirement.txt` is located.
  
  ```bash 
- source ./setup.sh env_name /path/to/project
+ source ./setup_venv.sh env_name /path/to/project
  ```
 
 * Don't forget to deactivate the enviroment.
